@@ -1,0 +1,18 @@
+:global {
+  .supermarket-warning-info {
+    background-color: #fafbfc;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    .warning-info-text {
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+  }
+}

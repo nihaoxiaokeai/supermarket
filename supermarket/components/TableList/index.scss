@@ -1,0 +1,27 @@
+:global {
+  .supermarket-table {
+    background-color: #ffffff;
+    overflow-x: scroll;
+    overflow-y: visible;
+    margin-left: 10px;
+    margin-right: 10px;
+    .table-cell {
+      overflow-x: hidden;
+      overflow-y: scroll;
+      min-width: 900px;
+      .table-cell-text {
+        // background-color: antiquewhite;
+        text-align: center;
+        color: #323232;
+        width: 100px;
+        word-break: break-word;
+        border-bottom: 1px solid #f7f7f7;
+        padding: 5px;
+      }
+    }
+    .table-broder {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+  }
+}
